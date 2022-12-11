@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+    <!-- Code by Angela Delise  
+   https://codepen.io/angeladelise/pen/Bajdvav
+   
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style3.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <!-- <link rel="stylesheet" href="../css/websites.css"> -->
+  <link rel="stylesheet" href="../css/product-page.css">
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="../../index.html" class="logo">
+        <img src="../images/Group-5.png" alt="" class="kmd-img">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo"><img src="../images/Group-5.png" alt="" class="kmd-img"></a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="../../index.html" class="navbar-link" data-nav-link>О нас</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../../index.html" class="navbar-link" data-nav-link>Услуги</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Особенности</a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link" data-nav-link>Проекты</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="websites.html" class="navbar-link" data-nav-link>Готовые Сайты</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn btn-primary has-before has-after" data-modal="modal-callback">Заказать сайт 👋</a>
+      <div class="modal-wrap modal-wrap_hidden" id="modal-callback">
+        <div class="modal">
+            <h4 class="modal__title">Заказать сайт</h4>
+            <div class="modal__message">
+              Заполните заявку и персональный менеджер свяжется с вами для уточнения деталей заказа
+            </div>
+            <form action="" method="post" class="modal__form">
+                <input type="tel" name="phone" class="modal__input modal__input_phone"  id="phone" value="+998" data-mask="+998 __-___-__-__" placeholder="(__) ___-__-__"
+                pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?" title="Введите номер телефона в формате +998 XX XXX XX XX"/>
+                <button type="submit" class="modal__submit">Отправить заявку</button>
+            </form>
+            <div class="modal__policy">
+                <p>&#169; Kakhkharov 2022</p>
+            </div>
+            <button class="modal__close">
+                <span></span><span></span>
+            </button>
+        </div>
+    </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+        <div class="container">
+            <div class="product_page-content">
+                
+                  <div class="grid product">
+                    <div class="column-xs-12 column-md-7">
+                      <div class="product-gallery">
+                        <div class="product-image">
+                          <img class="active" src="../images/vuecinema_pr.png">
+                        </div>
+                        <ul class="image-list">
+                          <li class="image-item"><img src="../images/vuecinema_pr.png"></li>
+                          <li class="image-item"><img src="../images/project-2.png"></li>
+                          <li class="image-item"><img src="../images/project-4.png"></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="column-xs-12 column-md-5">
+                      <h1>NFT</h1>
+                      <h2>$19.99</h2>
+                      <div class="description">
+                        <p>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
+                        <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+                      </div>
+                      <div class="button-content">
+                        <a href="https://timursadikov23.github.io/NFT/"><button class="add-to-cart">Demo Version</button></a>
+                        <button class="add-to-cart" data-modal="modal-callback">Buy now</button>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="grid related-products">
+                    <div class="column-xs-12">
+                      <h3>You may also like</h3>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/miziNqvJx5M">
+                      <h4>Succulent</h4>
+                      <p class="price">$19.99</p>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/2y6s0qKdGZg">
+                      <h4>Terranium</h4>
+                      <p class="price">$19.99</p>
+                    </div>
+                    <div class="column-xs-12 column-md-4">
+                      <img src="https://source.unsplash.com/6Rs76hNbIWE">
+                      <h4>Cactus</h4>
+                      <p class="price">$19.99</p>
+                    </div>
+                  </div>
+                </div>
+          
+            </div>
+            
+
+
+
+
+
+
+
+      
+
+     
+
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="assets/images/Group-5.png" width="160" height="50" alt="logo" class="kmd-img">
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            
+
+            
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li>
+              <address class="footer-link">
+                <ion-icon name="location"></ion-icon>
+
+                <span class="footer-link-text">
+                  Tashkent, 10000, Uzbekistan
+                </span>
+              </address>
+            </li>
+
+            <li>
+              <a href="tel:+557343673257" class="footer-link">
+                <ion-icon name="call"></ion-icon>
+
+                <span class="footer-link-text">+998 99 999-99-99</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:footcap@help.com" class="footer-link">
+                <ion-icon name="mail"></ion-icon>
+
+                <span class="footer-link-text">kakhkharov-timur@mail.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Web development</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Главная</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">О нас</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Услуги</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                <span class="footer-link-text">Проекты</span>
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Часы работы</p>
+
+            <table class="footer-table">
+              <tbody>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Пн - Cб:</th>
+
+                  <td class="table-data">8:00 - 22:00</td>
+                </tr>
+                <!-- <tr class="table-row">
+                  <th class="table-head" scope="row">Пн - Вт:</th>
+
+                  <td class="table-data">8:00 - 22:00</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Wed:</th>
+
+                  <td class="table-data">8AM - 7PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Fri:</th>
+
+                  <td class="table-data">7AM - 12PM</td>
+                </tr>
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Sat:</th>
+
+                  <td class="table-data">9AM - 8PM</td>
+                </tr> -->
+
+                <tr class="table-row">
+                  <th class="table-head" scope="row">Вс:</th>
+
+                  <td class="table-data">Закрыто</td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Оставьте заявку</p>
+
+            <p class="newsletter-text">
+              Если у вас есть вопросы или вы не знаете что выбрать, оставьте заявку: мы свяжемся с вами.
+            </p>
+
+            
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 <a href="#" class="copyright-link">Kakhkharov</a>. Все права защищены 
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  
+
+
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../js/product-page.js"></script>
+  <script src="../js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
