@@ -13,7 +13,23 @@
   /* grid-gap: 1rem; */
   justify-content: center;
   align-items: center;
+  /* display: none; */
 }
+
+
+
+.show-more{
+  position: relative;
+  left: 45%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.active-page{
+  display: none !important;
+}
+
+
 .main .card {
   color: #252a32;
   border-radius: 2px;
@@ -89,3 +105,32 @@
 }
 
 
+
+
+
+body{margin:0;background: url(https://www.yerelfirmalar.com/uploads/firmabg/tt_106936__texture_blue_color_background_p.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.blackscreen{width:100%;height:100vh;position:fixed;background: rgba(255, 255, 255, 1);}
+
+.svg-loader, .svg-logo{
+  width: 150px;
+  height: 150px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+body{background:url(https://www.yerelfirmalar.com/uploads/firmabg/tt_106936__texture_blue_color_background_p.jpg) no-repeat fixed; 
+  -webkit-background-size: contain 100%;
+  -moz-background-size: contain 100%;
+  -o-background-size: contain 100%;
+  background-size: contain 100%;}
+}
