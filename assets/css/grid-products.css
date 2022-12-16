@@ -18,16 +18,16 @@
 
 
 
-.show-more{
+/* .show-more{
   position: relative;
   left: 45%;
   margin-top: 50px;
   margin-bottom: 50px;
-}
+} */
 
-.active-page{
+/* .active-page{
   display: none !important;
-}
+} */
 
 
 .main .card {
@@ -87,9 +87,9 @@
 
 
 
-.active{
+/* .active{
   display: block; 
-}
+} */
 
 
 .ready-websites{
@@ -134,3 +134,5 @@ body{background:url(https://www.yerelfirmalar.com/uploads/firmabg/tt_106936__tex
   -o-background-size: contain 100%;
   background-size: contain 100%;}
 }
+
+

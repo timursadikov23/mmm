@@ -151,10 +151,12 @@
    * REUSED STYLE
    */
 
-  .container { max-width: 720px; }
+  .container {     max-width: -webkit-fill-available;}
 
 
-
+  .show-more-btn {
+    left: 37%;
+}
  
   /**
    * APP
@@ -222,6 +224,9 @@
   .container { max-width: 100%; }
 
 
+  .show-more-btn {
+    left: 42%;
+}
 
   
 
