@@ -452,6 +452,7 @@ body {
   background-color: var(--white);
   padding-block: 15px;
   box-shadow: var(--shadow-1);
+  padding:12px;
 }
 
 .header .container {
@@ -1005,7 +1006,7 @@ animation: float 9s ease-out infinite;
    * HEADER
    */
 
-  .header .container { max-width: unset; }
+  .header .container { max-width: unset; padding-inline: 15px; }
 
 
 

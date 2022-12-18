@@ -20,7 +20,7 @@
  * #FOOTER
 \*-----------------------------------*/
 
-.footer { font-family: var(--ff-roboto); }
+.footer { font-family: var(--ff-roboto); margin: 5px;}
 
 .footer-top { background: var(--cultured); }
 

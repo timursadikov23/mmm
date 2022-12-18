@@ -23,7 +23,7 @@
   #APP
 \*-----------------------------------*/
 
-.app-content { margin-block-end: 25px; }
+.app-content { margin-block-end: 25px; margin: 0px 13px; }
 
 .app .section-text { margin-block: 5px 10px; }
 
