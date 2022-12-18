@@ -20,9 +20,9 @@
  * #FOOTER
 \*-----------------------------------*/
 
-.footer { font-family: var(--ff-roboto); margin: 5px;}
+.footer { font-family: var(--ff-roboto);}
 
-.footer-top { background: var(--cultured); }
+.footer-top { background: var(--cultured); padding: 5px; }
 
 .footer-brand {
   padding-bottom: 50px;

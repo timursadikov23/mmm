@@ -318,7 +318,7 @@ body {
   height: 55px;
   display: flex;
   align-items: center;
-  padding-inline: 50px;
+  padding-inline: 36px;
   border-radius: var(--radius-10);
   overflow: hidden;
   transition: var(--transition-2);
@@ -452,14 +452,14 @@ body {
   background-color: var(--white);
   padding-block: 15px;
   box-shadow: var(--shadow-1);
-  padding:12px;
+  /* padding:12px; */
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0px 10px; */
+  margin: 0px 10px;
 }
 
 .logo {
@@ -556,6 +556,7 @@ body {
 .hero .container {
   display: grid;
   gap: 70px;
+  padding: 12px;
 }
 
 .hero-text {
@@ -873,8 +874,12 @@ animation: float 9s ease-out infinite;
  @media (min-width: 320px) { 
 
   .show-more-btn{
-    left: 25%;
+    left: 23%;
   }
+  .show-more {
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
   
   .deadline{
     background: var(--majorelle-blue);
@@ -1077,6 +1082,7 @@ animation: float 9s ease-out infinite;
     --section-padding: 120px;
 
   }
+  
 
 
 
@@ -1276,6 +1282,10 @@ animation: float 9s ease-out infinite;
     vertical-align: middle;
     border-radius: 10px;
   }
+  .show-more {
+    margin-top: 200px !important;
+    margin-bottom: 60px;
+}
 
   .container { max-width: 960px; }
 
@@ -1491,6 +1501,10 @@ animation: float 9s ease-out infinite;
     border-radius: 10px;
   }
 
+  .show-more {
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
   .grid-extra-list {
     display: grid;
     grid-template-rows: 450px 0px !important;
